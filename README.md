@@ -8,8 +8,10 @@ When using `@expo/ui/swift-ui`'s `Section` component with both a `title` prop an
 
 ## How to Reproduce
 
+**Note:** `@expo/ui` requires a development build and is not available in Expo Go.
+
 1. Install dependencies: `bun install`
-2. Run on iOS: `bun ios`
+2. Build and run on iOS: `bun ios` (this creates a development build)
 3. Observe that:
    - The first section ("Using title prop") does NOT show its footer text
    - The second section ("Using header prop") DOES show its footer text
