@@ -8,7 +8,7 @@ using the `title` prop.
 When using `@expo/ui/swift-ui`'s `Section` component with both a `title` prop and a `footer` prop, the footer is not
 rendered.
 
-![Screenshot showing missing footer](./expo-ui-section-footer-bug.png)
+<img src="./expo-ui-footer-bug.png" alt="Screenshot showing missing footer" width="350" />
 
 ## How to Reproduce
 
